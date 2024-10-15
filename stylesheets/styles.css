@@ -367,12 +367,12 @@ p {
 
     .img__left {
       margin-left: -7.813rem;
-      background-image: url(/assets/desktop/image-hero-left.png);
+      background-image: url(./assets/desktop/image-hero-left.png);
     }
 
     .img__right {
       margin-right: -7.813rem;
-      background-image: url(/assets/desktop/image-hero-right.png);
+      background-image: url(./assets/desktop/image-hero-right.png);
     }
     .footer__background {
       background-size: contain;
