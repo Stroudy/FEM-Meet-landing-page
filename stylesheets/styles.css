@@ -130,6 +130,7 @@ p {
 
 .button--download:hover {
   background-color: var(--color-primary-light);
+  cursor: pointer;
 }
 
 .button--download:hover .button__version {
@@ -142,6 +143,7 @@ p {
 
 .button--info:hover {
   background-color: var(--color-secondary-light);
+  cursor: pointer;
 }
 
 .button--info {
@@ -253,6 +255,15 @@ p {
   color: var(--color-white);
 }
 
+.button--bottom:hover .button__version {
+  color: var(--color-secondary);
+}
+
+.button--bottom:hover {
+  background-color: var(--color-secondary-light);
+  cursor: pointer;
+}
+
 .button--bottom {
   background-color: var(--color-secondary);
   width: 12.063rem;
@@ -351,9 +362,7 @@ p {
       display: inline-block;
       width: 18.938rem;
       height: 24.625rem;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
+      background: center / contain no-repeat;
     }
 
     .img__left {
